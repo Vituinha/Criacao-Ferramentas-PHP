@@ -1,5 +1,6 @@
 Código para gerar banco de dados MySql com conexão ao sistema:
-CREATE DATABASE `almoxarifado` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
+
+CREATE DATABASE 'almoxarifado' /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
 
 CREATE TABLE almoxarifado.tb_usuario (
 	cod_usuario INT auto_increment NOT NULL,
